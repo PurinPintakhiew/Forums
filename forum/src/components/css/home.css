@@ -1,0 +1,32 @@
+.card.card-home {
+    margin: 20px 0px 10px 0px;
+    /* box-shadow: 2px 5px rgb(0 0 0 / 20%); */
+}
+.card.newtopic.container {
+    margin-top: 40px;
+    background-color: #5DADE2;
+}
+.bg-home{
+    background-size:cover !important;
+    background-repeat: no-repeat !important;
+    background-position:center !important;
+    height: 100vh;
+    width: 100vw; 
+}
+.card-h {
+    border-bottom: 1px solid;
+    padding: 10px;
+}
+a#idTopic {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+}
+.card-body p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}

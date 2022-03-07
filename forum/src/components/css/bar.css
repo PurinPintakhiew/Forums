@@ -1,0 +1,18 @@
+.nav-hafu {
+    height: 70px;
+    background: black;
+}
+.row.r-bar {
+    justify-content: end;
+    text-align: center;
+    padding: 15px;
+}
+.d-flex.logo {
+    padding: 15px;
+}
+#login-regis {
+    display: none;
+}
+#login-session {
+    display: none;
+}

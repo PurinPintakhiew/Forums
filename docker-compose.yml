@@ -1,7 +1,7 @@
 version: "3"
 services:
 
-  purin-api:
+  server-api:
     build: ./server
     volumes:
       - ./server:/app
@@ -29,18 +29,18 @@ services:
     networks:
       - default
 
-  react-app:
-    container_name: forums
-    build: ./forum
-    environment:
-      CHOKIDAR_USEPOLLING: "true"
-    volumes:
-      - ./forum/src:/app/src
-      - ./forum/public/assets:/app/public/assets
-      - /app/node_modules
-    ports:
-      - 3000:3000
-    stdin_open: true
-    command: npm start
-    networks:
-      - default
+  # react-app:
+  #   container_name: forums
+  #   build: ./forum
+  #   environment:
+  #     CHOKIDAR_USEPOLLING: "true"
+  #   volumes:
+  #     - ./forum/src:/app/src
+  #     - ./forum/public/assets:/app/public/assets
+  #     - /app/node_modules
+  #   ports:
+  #     - 3000:3000
+  #   stdin_open: true
+  #   command: npm start
+  #   networks:
+  #     - default

@@ -1,0 +1,25 @@
+div#add-comment {
+    display: none;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.85);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 11999;
+}
+div#add-c {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div#edit-c {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div#comment-list {
+    margin-bottom: 15px;
+}
