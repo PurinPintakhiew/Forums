@@ -31,12 +31,12 @@ services:
 
   react-app:
     container_name: forums
-    build: ./client
+    build: ./forum
     environment:
       CHOKIDAR_USEPOLLING: "true"
     volumes:
-      - ./client/src:/app/src
-      - ./client/public/assets:/app/public/assets
+      - ./forum/src:/app/src
+      - ./forum/public/assets:/app/public/assets
       - /app/node_modules
     ports:
       - 3000:3000
