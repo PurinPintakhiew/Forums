@@ -19,7 +19,6 @@ ReactDOM.render(
         <Route path="/login" element={<Login/>}/>
         <Route path="/register" element={<Register/>}/>
         <Route path="/create" element={<App/>}/>
-        <Route path="/test" element={<TestR/>}/>
         <Route path="/show/:id" element={<Show/>}/>
         <Route path="/edit/:id" element={<Edit />} />
         <Route path="/users" element={<UserAll />} />

@@ -34,7 +34,7 @@ app.use(session({
 }));
 
 const db = mysql.createConnection({
-    host:"192.168.0.102",
+    host:"192.168.1.29",
     user:"purin",
     password:"123456",
     database:"hafuboard",
